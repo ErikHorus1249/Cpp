@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(void)
+{
+    int i;
+    while (1) {
+        scanf("%d", &i);
+        if (i > 99)
+            continue;
+        if (i == 42)
+            break;
+        printf("%d", i);
+    }
+    return 0;
+}
